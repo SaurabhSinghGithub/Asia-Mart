@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+/* Background----------------------------- */
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url(/pics/background.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+
+/* Navbar styling --------------------- */
+
+.navbar {
+    display: flex;
+    top: 0;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.left-navbar {
+    display: flex;
+
+    flex: 70;
+    align-items: center;
+}
+
+.left-navbar li {
+    list-style-type: none;
+
+}
+
+.left-navbar li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.left-navbar li a:hover {
+
+    color: red;
+}
+
+.right-navbar {
+    display: flex;
+
+    flex: 30;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.right-navbar input {
+
+    margin: 3px;
+
+}
+
+.search {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid rgb(119, 115, 115);
+
+
+}
+
+.btn {
+    padding: 8px;
+    border: 2px solid rgb(119, 115, 115);
+    border-radius: 15px;
+    background-color: grey;
+    color: white;
+}
+
+.btn:hover {
+
+    background-color: rgb(12, 11, 11);
+}
+
+
+/* First Section---------------------------*/
+
+.first-section {
+    display: flex;
+
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+
+}
+
+.left-section {
+    text-align: center;
+    max-width: 70%;
+}
+
+.left-section p {
+    margin: 18px;
+    font-size: 20px;
+    color: #f0e280;
+    font-size: 35px;
+}
+
+.right-section {
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.right-section img {
+    border-radius: 50%;
+}
+
+.text-big {
+    color: rgb(39, 185, 190);
+    margin: 10px;
+}
+
+.text-small {
+    color: rgb(32 32 29);
+    margin: 5px;
+    font-size: 20px;
+}
+
+
+/* Second section */
+
+.second-section {
+    display: flex;
+    padding: 80px;
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+
+}
+
+.left-second-section {}
+
+.right-second-section {
+    display: flex;
+    align-items: self-start;
+}
+
+.right-second-section img {
+    border-radius: 50%;
+    border: 2px solid rgb(99, 99, 99);
+}
+
+.middle {
+    flex-direction: row-reverse;
+}
+
+/* Contact us */
+
+.contact {
+    /* background-color: aquamarine; */
+    background: url(/pics/contact2.jpg);
+    background-size: cover;
+    padding: 28px;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form input,
+textarea {
+    width: 60%;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.form h2 {
+    margin: 22px;
+    text-align: center;
+}
+
+.form button {
+    width: 100px;
+
+    margin-top: 15px;
+}
